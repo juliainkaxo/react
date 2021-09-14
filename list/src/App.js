@@ -1,5 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
+import { v4 as uuid } from 'uuid';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -14,7 +15,7 @@ function App() {
       <h3>Names</h3>
       <ul>
         {items.map(item => (
-          <li key={item}>
+          <li key={uuid()}>
             {item}
           </li>
         ))}
