@@ -1,0 +1,15 @@
+#container {
+  margin: 30px;
+}
+
+#container div,
+button {
+  margin-top: 15px;
+}
+
+output {
+  display: block;
+  height: 20px;
+  border: 1px solid black;
+  width: 100px;
+}
