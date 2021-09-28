@@ -1,0 +1,38 @@
+{
+    "posts": [
+        {
+            "title": "test",
+            "content": "This is test content...",
+            "author": {
+                "lastname": "Jouni",
+                "firstname": "Juntunen"
+            },
+            "date": "10.2.2021",
+            "comments": [
+                {
+                    "comment": {
+                        "text" : "This is a test comment",
+                        "by": "Test person"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "test 2",
+            "content": "This is seconds test content...",
+            "author": {
+                "lastname": "Teppo",
+                "firstname": "Räisänen"
+            },
+            "date": "11.2.2021",
+            "comments": [
+                {
+                    "comment": {
+                        "text": "This is a another test comment",
+                        "by": "Test person"
+                    }
+                }
+            ]
+        }
+    ]
+}
