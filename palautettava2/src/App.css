@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin-top: 5px;
+  text-align: center;
+  padding: 2%;
+}
+
+p.juomaotsikko {
+  font-size: large;
+  font-weight: 900;
+}
+
+p {
+  font-weight: lighter;
+}
+
+p.selitys {
+  font-weight: 400;
+}
